@@ -1,3 +1,5 @@
+-- Angebunden via Atom
+
 -- load tiledmap.lua
 require "tiledmap"
 
@@ -10,7 +12,7 @@ function love.load()
 end
 
 function love.update(dt)
-  
+
 end
 
 function love.keypressed(key, unicode)
@@ -26,7 +28,8 @@ function love.draw()
   love.graphics.push()
   love.graphics.scale(3.3, 3.3)
   -- map.draw(map)
-  _G.map:draw() 
+  _G.map:draw()
   love.graphics.pop()
 
+love
 end
